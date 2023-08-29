@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Student Survey form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1 id="head">Student Survey Form</h1>
+        <h2 id="subheading"><i>Thank you for taking the time to help us improve the platform</h2>
+    </div>
+     <form>
+        <div id="cont">
+            <label>Name</label> <br><br>
+            <input type="name" name=" "name" placeholder="Enter your name" class="box"> <br><br>
+            <label>Email</label> <br><br>
+            <input type="email" name="email" placeholder="Enter your email" class="box"> <br><br>
+            <label>Age (optional)</label> <br><br>
+            <input type= "age" name="age" placeholder="Enter your age" class="box"> <br><br>
+            <label>which option best describes your current role?</label> <br><br>
+       
+        <div id="opt1">
+            <select>
+                <option name="Select Your Role">Select Your Role</option>
+                <option value="Student">Student</option>
+                <option value="Full Time Job">Full Time Job</option>
+                <option value="Prefer Not to say">Prefer Not to say</option>
+                <option value="Others">Others</option>
+            </select>
+        </div>
+    <br>
+    <label id="head1">Would you recommend Student Survey form to a friend</label> <br> <br>
+    <input type="radio" name="radio" class="larger"> Definitely <br> <br>
+    <input type="radio" name="radio" class="larger"> Maybe <br> <br>
+    <input type="radio" name="radio" class="larger"> Not Sure <br> <br>
+    <label>What is your favourite feature of Student Survey form?</label>
+
+    <div id="opt2">
+        <Select>
+            <option name="Select an option">Select an option</option>
+            <option name="Challenged">Challenged</option>
+            <option name="Projects">Projects</option>
+            <option name="Community">Community</option>
+            <option name="Open Source">Open Source</option>
+        </Select>
+    </div>
+    <br><br>
+    <label id="head2">What would you like to see improved? (Check all that apply)</label><br>
+    <div id="cont2">
+        <input type="checkbox" name="checkbox" class="larger"><label> Front-end Projects</label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label> Back-end Projects</label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label> Data Visualisation</label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label> Challenges</label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label> Open Source Community</label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label> Gitter help rooms</label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label> Videos</label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label> City Meetups</label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label> Wiki</label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label> Forum</label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label> Additional Courses</label><br><br>
+    </div>
+    <label id="head2">Any comments or suggestion?</label> <br><br>
+    <textarea placeholder="Enter Your Comment here...."></textarea> <br>
+    <button><h3>Submit</h3></button>
+    </form>
+</body>
+</html>
